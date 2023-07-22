@@ -1,0 +1,62 @@
+.card {
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0;
+  width: 400px;
+  height: max-content;
+  box-sizing: border-box;
+}
+.cardMenu {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  width: 100vw;
+  height: max-content;
+  box-sizing: border-box;
+}
+.sideBar {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width: 20vw;
+  height: 100vh;
+  /* border:1px solid yellow; */
+  box-sizing: border-box;
+}
+.PackSizeBar {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width: 20vw;
+  height: max-content;
+  box-sizing: border-box;
+}
+.PackSizeButton {
+  justify-content: center;
+  text-align: center;
+  margin: 0 15px;
+  /* border: 1px solid blue; */
+  border-radius: 11px;
+  width: 80px;
+  height: 80px;
+}
+.AddToCartButton{
+    border-radius:11px;
+}
+.NavBar{
+  display:flex;
+  justify-content:right;
+  align-content:center;
+  width:auto;
+  height:150px;
+  box-sizing:border-box;
+}
+.NavButton{
+  margin:20px 10px;
+  width:auto;
+  height:120px;
+  box-sizing:border-box;
+  border-radius:10px;
+}
