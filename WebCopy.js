@@ -1,9 +1,25 @@
 import myJson from "./Items.json" assert { type: "json" };
-
-
 let body = document.body;
-
 body.style.margin = "0";
+
+class BCS{
+  /**
+   * @param {string} id
+   * @param {string} name
+   * @param {number} price
+   * @param {number} quantity
+   */
+
+  constructor(id, name, price, stock){
+      this.id = id;
+      this.name = name;
+      this.price = price;
+      this.stock = stock;
+  }
+}
+/**@type {BCS[]} */
+
+
 function buildNavbar() {
   let container = document.createElement("div");
   container.className = "NavBar";
@@ -11,18 +27,13 @@ function buildNavbar() {
   let AddToCartButton = document.createElement("button");
   AddToCartButton.innerHTML = `<h1 style = "padding: 20px">SHOW CART</h1>`;
   AddToCartButton.className = "NavButton";
-  AddToCartButton.addEventListener("click", () => {
-    ShowCart();
-  })
+  AddToCartButton.addEventListener("click", () => {ShowCart();})
   container.appendChild(AddToCartButton);
 
   let CheckOutButton = document.createElement("button");
   CheckOutButton.innerHTML = `<h1 style = "padding: 20px">CHECK OUT</h1>`;
   CheckOutButton.className = "NavButton";
-  CheckOutButton.addEventListener("click", () => {
-    CheckOut();
-  })
-  
+  CheckOutButton.addEventListener("click", () => {CheckOut();})
   container.appendChild(CheckOutButton);
   return container;
 }
@@ -55,23 +66,6 @@ function CheckOut(){
   cart = [];
 }
 
-class BCS{
-  /**
-   * @param {string} id
-   * @param {string} name
-   * @param {number} price
-   * @param {number} quantity
-   */
-
-  constructor(id, name, price, stock){
-      this.id = id;
-      this.name = name;
-      this.price = price;
-      this.stock = stock;
-  }
-}
-/**@type {BCS[]} */
-
 let cart = [];
 
 function addToCart(BCS){
@@ -96,10 +90,7 @@ function addToCart(BCS){
 
 function buildBody() {
   let container = document.createElement("div");
-  container.style.display = "flex";
-  container.style.height = "max-content";
-  container.style.width = "auto";
-  container.style.boxSizing = "border-box";
+  container.className = "subBody";
   return container;
 }
 
@@ -154,7 +145,7 @@ function buildItemsMenu() {
     let bcs= myJson[i];
 
     let AddToCartButton = document.createElement("button");
-    AddToCartButton.className = "AddToCartButton";
+    AddToCartButton.className = "NavButton";
     AddToCartButton.innerHTML = `<h1 style = "padding: 20px;">ADD TO CART</h1>`;
     AddToCartButton.addEventListener("click", () => {
       addToCart(bcs);
