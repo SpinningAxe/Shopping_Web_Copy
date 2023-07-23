@@ -18,11 +18,26 @@
   height: max-content;
   box-sizing: border-box;
 }
+.cardButton{
+    /* border:1px solid yellow; */ 
+    justify-content: center;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: #0088ff;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
 .sideBar {
   /* border:1px solid yellow; */
   display: block;
   justify-content: center;
   align-content: center;
+  justify-items: center;
+  align-items: center;
   width: 20vw;
   height: 100vh;
   box-sizing: border-box;
@@ -38,7 +53,12 @@
 }
 .PackSizeButton {
   /* border:1px solid yellow; */ 
-  justify-content: center;
+  border: 1px solid gray;
+  background-color: white;
+  color: gray;
+  font-size:large;
+  font-weight: bold;
+  justify-items: center;
   text-align: center;
   margin: 0 15px;
   border-radius: 11px;
@@ -51,22 +71,33 @@
 .NavBar{
   /* border:1px solid yellow; */
   display:flex;
-  justify-content:right;
-  align-content:center;
+  justify-content:space-around;
+  /* align-content:center; */
+  align-items:center;
   width:auto;
-  height:150px;
+  height:185px;
   box-sizing:border-box;
+  background: #005baa;
+  padding: 20px 0 14px;
+  position: relative;
 }
 .NavButton{
   /* border:1px solid yellow; */
-  margin:20px 10px;
-  width:auto;
+  width:300px;
   height:max-content;
+  font-size: 15px;
+  font-weight: bold;
   box-sizing:border-box;
-  border-radius:10px;
+  margin: 0 35px 0 0;
+  border-radius:75px;
+  background-color: white;
+  color: #005baa;
+  border: none;
 }
 .subBody{
   display:flex;
   height:max-content;
   width:auto;
+  margin: 20px 0;
+  box-sizing: border-box;
 }

@@ -36,10 +36,42 @@
         "name": "Bao Cao Su Durex Fetherlite Hộp 12 Cái",
         "price": 6000
     },{
+        "id":"007",
+        "quantity":15,
+        "image": "https://www.durexvietnam.vn/cdn/shop/products/RB_Durex_ThinFeel_Fetherlite_3pk_8850163000100_Front_Vietnam_1280x.jpg?v=1592438116",
+        "name": "Bao Cao Su Durex Fetherlite Hộp 3 Cái",
+        "price": 4500
+    },{
+        "id":"008",
+        "quantity":15,
+        "image": "https://www.durexvietnam.vn/cdn/shop/products/RB_Durex_Performance_Performa_12pk_new_1049x.png?v=1592438107",
+        "name": "Bao Cao Su Durex Performa Hộp 12 Cái",
+        "price": 4500
+    },{
+        "id":"09",
+        "quantity":15,
+        "image": "https://www.durexvietnam.vn/cdn/shop/products/RB_Durex_Performance_Performa_3pk_RBL1913553_Front_VIETNAM_1280x.jpg?v=1592438107",
+        "name": "Bao Cao Su Durex Performa Hộp 3 Cái",
+        "price": 4500
+    },{
+        "id":"010",
+        "quantity":15,
+        "image": "https://www.durexvietnam.vn/cdn/shop/products/RB_Durex_Pleasuremax_12pk_new1_ef4889c4-ffdd-485c-8d95-960bc4c40607_1049x.png?v=1592438108",
+        "name": "Bao Cao Su Durex Pleasuremax Hộp 12 Cái",
+        "price": 4500
+    },{
+        "id":"011",
+        "quantity":15,
+        "image": "https://www.durexvietnam.vn/cdn/shop/products/RB_Durex_Kingtex_12pk_new1_5f843d2c-d189-41e5-a816-51bd7a04529e_1049x.png?v=1592438154",
+        "name": "Bao Cao Su Durex Kingtex Hộp 12 Cái",
+        "price": 4500
+    },{
         "id":"DRAAAAAVEN!",
         "quantity":2,
         "image": "Spinning Axe.png",
         "name": "Rìu Xoay Draven Hộp 2 Cái",
         "price": 4500
     }
+    
+    
 ]
